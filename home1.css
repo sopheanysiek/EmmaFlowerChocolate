@@ -6,6 +6,7 @@
   background-image: url('pretty-red-roses-white-background_23-21477424741.jpg');
 
 }
+
 h1 {
   color: #8B0000;
   text-shadow: 5px 5px 15px red;
@@ -33,12 +34,14 @@ h1 {
   text-align: center;
   border: 0;
 }
+
 a {
   text-decoration: none;
   color: #8b0000;
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
   color: #fff;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   text-decoration: none;
@@ -49,7 +52,8 @@ a:link, a:visited {
   font-family: Bradley Hand ITC;
 }
 
-a:hover, a:active {
+a:hover,
+a:active {
   color: hotpink;
   text-shadow: 5px 5px 5px white;
 }
@@ -65,7 +69,7 @@ body {
 .BODY {
   border: 0.01px solid brown;
   background-image: url('MAX 1.jpg');
-  height: 500px;
+  height: 800px;
   background-repeat: no-repeat;
   background-size: cover;
 }
