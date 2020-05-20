@@ -1,0 +1,105 @@
+/* ---------------------------- HEADING ---------------------------- */
+.HEADING {
+  position: relative;
+  border: 0;
+  text-align: center;
+  background-image: url('pretty-red-roses-white-background_23-21477424741.jpg');
+
+}
+h1 {
+  color: #8B0000;
+  text-shadow: 5px 5px 15px red;
+  font-size: 60px;
+  word-wrap: normal;
+  display: inline-block;
+  font-family: Brush Script MT;
+}
+
+.logo {
+  position: absolute;
+  top: 24px;
+  left: 160px;
+  width: 100px;
+}
+
+.overlay {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* ---------------------------- LINKS ---------------------------- */
+.LINKS {
+  background-size: 66px;
+  background-color: brown;
+  text-align: center;
+  border: 0;
+}
+a {
+  text-decoration: none;
+  color: #8b0000;
+}
+
+a:link, a:visited {
+  color: #fff;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 0 40px;
+  word-wrap: normal;
+  display: inline-block;
+  font-family: Bradley Hand ITC;
+}
+
+a:hover, a:active {
+  color: hotpink;
+  text-shadow: 5px 5px 5px white;
+}
+
+/* ---------------------------- BODY ---------------------------- */
+
+body {
+  border: 0;
+  margin: 0;
+  background-color: brown;
+}
+
+.BODY {
+  border: 0.01px solid brown;
+  background-image: url('MAX 1.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#p1 {
+  font-family: Broadway;
+  font-weight: bold;
+  color: black;
+  text-shadow: 5px 5px 7px white;
+  font-size: 25px;
+  font-style: italic;
+}
+
+#p2 {
+  font-family: Brush Script MT;
+  font-weight: bold;
+  font-size: 43px;
+  text-shadow: 10px 10px 10px black;
+  color: pink;
+}
+
+#p3 {
+  font-family: Arial;
+  font-size: 25px;
+  color: white;
+  text-shadow: 7px 7px 7px black;
+  font-style: italic;
+  text-shadow: 12px 10px 10px black;
+}
+
+#p4 {
+  font-family: Agency FB;
+  font-weight: bold;
+  font-size: 26px;
+  text-shadow: 10px 10px 10px black;
+  color: wheat;
+}

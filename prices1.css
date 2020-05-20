@@ -1,0 +1,151 @@
+/* ---------------------------- HEADING ---------------------------- */
+.HEADING {
+  position: relative;
+  border: 0;
+  text-align: center;
+  background-image: url('pretty-red-roses-white-background_23-21477424741.jpg');
+
+}
+h1 {
+  color: #8B0000;
+  text-shadow: 5px 5px 15px red;
+  font-size: 60px;
+  word-wrap: normal;
+  display: inline-block;
+  font-family: Brush Script MT;
+}
+
+.logo {
+  position: absolute;
+  top: 24px;
+  left: 160px;
+  width: 100px;
+}
+
+.overlay {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* ---------------------------- LINKS ---------------------------- */
+.LINKS {
+  background-size: 66px;
+  background-color: brown;
+  text-align: center;
+  border: 0;
+}
+a {
+  text-decoration: none;
+  color: #8b0000;
+}
+
+a:link, a:visited {
+  color: #fff;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 0 40px;
+  word-wrap: normal;
+  display: inline-block;
+  font-family: Bradley Hand ITC;
+}
+
+a:hover, a:active {
+  color: hotpink;
+  text-shadow: 5px 5px 5px white;
+}
+
+/* ---------------------------- BODY ---------------------------- */
+body {
+  border: 0;
+  margin: 0;
+  background-color: brown;
+}
+.img{
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	box-shadow: 0px 0px 10px 7px white;
+}
+
+h2 {
+	text-align: center;
+	color: black;
+	font-family: Broadway;
+    font-weight: bold;
+    color: black;
+    text-shadow: 5px 5px 15px red;
+    font-size: 28px;
+	text-decoration: underline;
+}
+
+.BODY {
+  border: 0.01px solid brown;
+  background-image: url('ROSIE.jpg');
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+}
+
+th {
+font-size: 20px;
+  font-family: Broadway;
+  background-color: brown;
+  color: black;
+  padding: 15px; 
+  border: 2px solid black;  
+  text-shadow: 2px 1px 4px white;
+}
+
+tr:nth-child(even) {background-color: wheat;}
+
+.Tablerow2 {
+	background-color: brown;
+	border: 2px solid black;
+}
+
+.td1{
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial Rounded MT Bold;
+  border: 2px solid black;
+  padding: 15px;
+  color:darkred;
+}
+
+.td2{
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: 21px;
+  font-family: Broadway;
+  border: 2px solid black;
+  padding: 15px;
+}
+.td3 {
+	border: 1px solid #ddd;
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial Rounded MT Bold;
+  border: 2px solid black;
+  padding: 15px;
+  color: #e75480;
+}
+.td4 {
+	border: 1px solid #ddd;
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial Rounded MT Bold;
+  border: 2px solid black;
+  padding: 15px;
+  color: #013220;
+}
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: auto;
+  align-self:center;
+  border: 2px solid black;
+  box-shadow: 10px 15px black;
+  text-align: center;
+}

@@ -1,0 +1,177 @@
+/* ---------------------------- HEADING ---------------------------- */
+h1 {
+  color: #8B0000;
+  text-shadow: 5px 5px 15px red;
+  font-size: 60px;
+  word-wrap: normal;
+  display: inline-block;
+  font-family: Brush Script MT;
+}
+
+.HEADING {
+  position: relative;
+  border: 0;
+  text-align: center;
+  background-image: url('pretty-red-roses-white-background_23-21477424741.jpg');
+}
+
+.logo {
+  position: absolute;
+  top: 24px;
+  left: 160px;
+  width: 100px;
+}
+
+.overlay {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* ---------------------------- LINKS ---------------------------- */
+a {
+  text-decoration: none;
+  color: #8b0000;
+}
+
+a:link, a:visited {
+  color: #fff;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 0 40px;
+  word-wrap: normal;
+  display: inline-block;
+  font-family: Bradley Hand ITC;
+}
+
+a:hover, a:active {
+  color: hotpink;
+  text-shadow: 5px 5px 5px white;
+}
+
+.LINKS {
+  background-size: 66px;
+  background-color: brown;
+  text-align: center;
+  border: 0;
+}
+
+/* ---------------------------- BODY ---------------------------- */
+body {
+  border: 0;
+  margin: 0;
+  background-color: brown;
+}
+.BODY {
+  border: 0.01px solid brown;
+  background-image: url('CONTACT.jpg');
+  height: 950px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+* {
+  box-sizing: border-box;
+}
+.half {
+  width: 50%;
+}
+
+[class*="half"] {
+  float: left;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: auto;
+  align-self: center;
+  border: 2px solid black;
+  box-shadow: 10px 15px black;
+  margin-top: 50px;
+  margin-right: 30px;
+}
+
+th {
+  font-size: 20px;
+  font-family: Broadway;
+  background-color: brown;
+  color: black;
+  padding: 15px;
+  border: 2px solid black;
+  text-align: center;
+  text-shadow: 2px 1px 4px white;
+}
+
+td {
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: 15px;
+  font-family: Arial Rounded MT Bold;
+  border: 2px solid black;
+  padding: 10px;
+  background-color: wheat;
+  color: #003333;
+}
+
+h2 {
+  text-align: center;
+  color: black;
+  font-family: Broadway;
+  font-weight: bold;
+  color: black;
+  text-shadow: 5px 5px 15px red;
+  font-size: 28px;
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 35px;
+  font-family: Brush Script MT;
+  color: #8B0000;
+  text-shadow: 2px 2px 5px red;
+}
+
+.img {
+  width: 250px;
+  height: 170px;
+  box-shadow: 7px 7px 5px #aaaaaa;
+  margin-right: 40px;
+  margin-left: 33px;
+}
+ul {
+  list-style-type: square;
+}
+li, p {
+  font-size: 20px;
+  font-family: Agency FB;
+  font-weight: bold;
+  color: #003333;
+}
+#subject {
+  width: 250px;
+  height: 350px;
+}
+#IO {
+  width: 250px;
+  height: 100px;
+}
+
+#CV {
+  width: 30px;
+}
+
+#ED {
+  width: 50px;
+}
+
+#ID {
+  width: 120px;
+}
+
+#DA {
+  width: 250px;
+}
+#SUMIT {
+	background-color: pink;
+	width:70px;
+}
